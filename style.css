@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Norse";
+  src: url("Norse-Bold.otf") format("opentype");
+}
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+  margin: 0;
+}
+
+.structure {
+  display: flex;
+}
+
+#sidebar {
+  display: flex;
+  width: 37vw;
+  height: 100vh;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+#sideBarStripe {
+  width: 37vw;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sideBarStripeHeader {
+  color: white;
+  font-size: 8rem;
+  font-family: "Norse", "Arial", "Helvetica", sans-serif;
+}
+
+#sideBarStripeLogo {
+  width: 6vw;
+  height: 12vh;
+}
+
+#sections {
+  display: flex;
+  flex-direction: column;
+}
+
+#top {
+  background-color: #f9fafb;
+  width: 63vw;
+  height: 35vh;
+}
+
+#mid {
+  background-color: #ffffff;
+  width: 63vw;
+  height: 30vh;
+}
+
+#bot {
+  background-color: #f9fafb;
+  width: 63vw;
+  height: 35vh;
+}
+
+#topText {
+  margin-top: 13vh;
+  margin-left: 2.5vw;
+  margin-right: 10vw;
+}
+
+#midText {
+  margin-top: 2vh;
+  margin-left: 2.5vw;
+}
+
+form {
+  display: flex;
+  width: 600px; /* Adjust width */
+  color: #333;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 25px; /* Space between inputs */
+  width: 100%;
+  width: 300px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  border-radius: 0.3vw;
+  border-style: solid;
+}
+
+fieldset {
+  border: none; /* Remove border */
+}
+
+#leftForm {
+  margin-left: 2vw;
+}
+
+#rightForm {
+  margin-left: 3vw;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none; /* Remove the default outline for better styling */
+}
+
+.password:invalid {
+  border-color: red;
+}
+
+#submitBtn {
+  background-color: #596d48;
+  margin-left: 2.5vw;
+  margin-top: 2.5vh;
+  width: 10vw;
+  height: 4vh;
+  border-radius: 0.3vw;
+  border-style: solid;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#submitBtn:hover {
+  cursor: pointer;
+  background-color: #4a5c3f;
+}
+
+#botText {
+  margin-top: 3.5vh;
+  margin-left: 2.5vw;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
+}
