@@ -74,6 +74,8 @@ body {
   margin-top: 13vh;
   margin-left: 2.5vw;
   margin-right: 10vw;
+  max-width: 40vw;
+  min-width: 1000px;
 }
 
 #midText {
