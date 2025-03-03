@@ -18,6 +18,7 @@ body {
   height: 100vh;
   background-image: url(background.jpg);
   background-size: cover;
+  min-height: 1000px;
 }
 
 #sideBarStripe {
@@ -28,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100px;
 }
 
 #sideBarStripeHeader {
@@ -37,8 +39,9 @@ body {
 }
 
 #sideBarStripeLogo {
-  width: 6vw;
+  width: 5vw;
   height: 12vh;
+  min-height: 100px;
 }
 
 #sections {
@@ -50,18 +53,21 @@ body {
   background-color: #f9fafb;
   width: 63vw;
   height: 35vh;
+  min-height: 350px;
 }
 
 #mid {
   background-color: #ffffff;
   width: 63vw;
   height: 30vh;
+  min-height: 320px;
 }
 
 #bot {
   background-color: #f9fafb;
   width: 63vw;
   height: 35vh;
+  min-height: 300px;
 }
 
 #topText {
@@ -129,7 +135,7 @@ input:focus {
   border-style: solid;
   border: none;
   color: white;
-
+  min-width: 150px;
   font-size: 1.2rem;
 }
 
