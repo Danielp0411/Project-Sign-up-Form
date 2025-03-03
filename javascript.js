@@ -160,10 +160,19 @@ botSection.appendChild(submitButton);
 botSection.appendChild(botText);
 
 document.getElementById("submitBtn").addEventListener("click", function () {
-  var form = document.getElementById("form");
-  if (form.checkValidity()) {
-    form.submit();
-  } else {
+  if (!form.checkValidity()) {
     alert("Please fill out the form correctly.");
+  } else if (passwordInput.value !== confirmPasswordInput.value) {
+    alert("Passwords do not match.");
+  } else {
+    //form.submit();
+    console.log("Form submitted.");
+    console.log("First Name: " + firstNameInput.value);
+    console.log("Last Name: " + lastNameInput.value);
+    console.log("Email: " + emailInput.value);
+    console.log("Phone: " + phoneInput.value);
+    console.log("Password: " + passwordInput.value);
+    console.log("Confirm Password: " + confirmPasswordInput.value);
+    form.reset();
   }
 });

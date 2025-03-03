@@ -129,23 +129,30 @@ input:focus {
   border-style: solid;
   border: none;
   color: white;
+
   font-size: 1.2rem;
 }
 
 #submitBtn:hover {
   cursor: pointer;
+
   background-color: #4a5c3f;
 }
 
 #botText {
   margin-top: 3.5vh;
+
   margin-left: 2.5vw;
+
   font-size: 1.2rem;
+
   font-weight: normal;
 }
 
 a {
   color: #596d48;
+
   text-decoration: none;
+
   font-weight: bold;
 }
